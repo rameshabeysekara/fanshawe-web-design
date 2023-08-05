@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.logo {
+    height: 30%;
+    width: 30%;
+}
+
+h1 {
+    color: #188f9a;
+    text-align: center;
+    font-size: 130%;
+}
+
+h2 {
+    color: #004f80;
+    font-size: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Playfair', serif;
+}
+
+.top-nav {
+    background-color: #761a50;
+    padding: 2%;
+}
+
+.top-nav nav {
+    text-align: center;
+}
+
+.top-nav li {
+    padding: 2%;
+}
+
+.top-nav ul {
+    background-color: #188f9a;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.top-nav a {
+    color: white;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+main {
+    background-color: #fff;
+    margin: auto;
+}
+
+.main-image {
+    width: 100%;
+    padding-top: 5%;
+    margin: 0%;
+}
+
+.grid-item-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.grid-item-text li {
+    font-size: 90%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 10px 0;
+
+}
+
+footer {
+    background-color: #651443;
+    padding: 2%;
+    text-align: left;
+}
+
+footer p {
+    color: white;
+    font-size: 80%;
+}
+
+footer a {
+    color: #f1e9d6;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 900px) {
+
+    .top-nav nav {
+        display: flex;
+        justify-self: end;
+    }
+
+    .top-nav li {
+        display: inline;
+        border: none;
+        margin: 25px;
+    }
+
+    .top-nav ul {
+        display: flex;
+        align-items: center;
+        min-width: 800px;
+        min-height: 50px;
+        max-width: 80%;
+        max-height: 50px;
+        flex-flow: row-reverse;
+        margin-left: auto;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0px;
+    }
+
+    .grid-item-title {
+        padding: 0px;
+        grid-column: 1 / span 2;
+    }
+
+    .grid-item-main-image {
+        padding: 0px;
+        grid-column: 1 / span 1;
+    }
+
+    .grid-item-text {
+        padding: 20px;
+        grid-column: 2 / span 1;
+        padding-top: 100px;
+    }
+}
