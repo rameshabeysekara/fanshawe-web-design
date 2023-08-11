@@ -36,7 +36,7 @@ Semantic Footer: The footer section contains descriptive content that explains t
 
 # Q5
 
-Meta Tags: The HTML code includes meta tags in the <head> section, such as <meta name="keywords"> and <meta name="description">. These meta tags help search engines understand the content and context of the website, improving its chances of appearing in relevant search results.
+Meta Tags: The HTML code includes meta tags in the head section, such as meta name="keywords" and meta name="description". These meta tags help search engines understand the content and context of the website, improving its chances of appearing in relevant search results.
 
 Keywords in Content: The content of the website includes relevant keywords like "artificial intelligence," "machine learning," and "computer brain." These keywords can help the website rank higher in search results for relevant queries.
 
