@@ -1,7 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    height: 100vh;
+    min-height: 100%;
 }
 
 .logo {
@@ -47,6 +51,7 @@ h2 {
 }
 
 .top-nav a {
+    display: block;
     color: white;
     font-size: 80%;
     text-decoration: none;
@@ -138,12 +143,13 @@ footer {
     background-color: #651443;
     padding: 2%;
     text-align: left;
-    height: min-content;
+    height: 210px;
 }
 
 footer p {
     color: white;
     font-size: 80%;
+    text-align: justify;
 }
 
 footer a {

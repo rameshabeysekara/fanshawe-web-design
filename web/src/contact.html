@@ -23,80 +23,88 @@
       />
       <nav>
         <ul>
-          <a href="./index.html"><li>Home</li></a>
-          <a href="./contact.html"><li>Contact</li></a>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
 
     <main>
       <div id="container-bg">
-      <div class="form-container">
-        <forms>
-          <div class="row">
-            <div class="col-25">
-              <label for="fname">First Name</label>
+        <div class="form-container">
+          <form>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Enter first name"
+                />
+              </div>
             </div>
-            <div class="col-75">
-              <input
-                type="text"
-                id="fname"
-                name="firstname"
-                placeholder="Enter first name"
-              />
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Enter last name"
+                />
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Last Name</label>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email"
+                />
+              </div>
             </div>
-            <div class="col-75">
-              <input
-                type="text"
-                id="lname"
-                name="lastname"
-                placeholder="Enter last name"
-              />
+            <div class="row">
+              <div class="col-25">
+                <label for="message">Message</label>
+              </div>
+              <div class="col-75">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Write your Message here"
+                  style="height: 200px"
+                ></textarea>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="email">Email</label>
+            <div class="row">
+              <input type="submit" value="Send" />
             </div>
-            <div class="col-75">
-              <input
-                type="text"
-                id="email"
-                name="email"
-                placeholder="Enter email"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="message">Message</label>
-            </div>
-            <div class="col-75">
-              <textarea
-                id="message"
-                name="message"
-                placeholder="Write your Message here"
-                style="height: 200px"
-              ></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <input type="submit" value="Send" />
-          </div>
-        </form>
-      </div></div>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
       <p>
         © Copyright 2023
-        <a href="mailto: ramesh@artificialintelligence.com"
+        <a href="mailto:ramesh@artificialintelligence.com"
           >Artificial Intelligence</a
         >
+      </p>
+      <p>
+        Artificial Intelligence, or AI, refers to the simulation of human
+        intelligence processes by machines, particularly computer systems. It
+        involves creating algorithms and models that allow computers to perform
+        tasks that typically require human intelligence, such as
+        problem-solving, learning, reasoning, and decision-making.
       </p>
     </footer>
   </body>
