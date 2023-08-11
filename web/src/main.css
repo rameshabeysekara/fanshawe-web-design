@@ -1,6 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    height: 100vh;
 }
 
 .logo {
@@ -11,12 +12,12 @@ body {
 h1 {
     color: #188f9a;
     text-align: center;
-    font-size: 130%;
+    font-size: 140%;
 }
 
 h2 {
     color: #004f80;
-    font-size: 100%;
+    font-size: 120%;
     text-align: center;
     font-weight: normal;
     font-family: 'Playfair', serif;
@@ -137,6 +138,7 @@ footer {
     background-color: #651443;
     padding: 2%;
     text-align: left;
+    height: min-content;
 }
 
 footer p {
