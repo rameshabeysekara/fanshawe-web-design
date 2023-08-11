@@ -10,7 +10,7 @@ wnr20230613
 
 ## Appendix A
 
-# Q3:
+# Q3: (Design Principles)
 
 Proximity: The navigation menu items are grouped together in the top navigation bar, In the contact form, labels and input fields are placed together in rows, creating a clear relationship between each label and its corresponding input.
 
@@ -20,7 +20,7 @@ Repetition: Using a consistent color scheme (#761a50, #188f9a, #004f80) across d
 
 Contrast: The use of different background colors for the top navigation bar (#761a50) and the main content area (#fff), creating a clear distinction between them.
 
-# Q4:
+# Q4: (Accessibility)
 
 Semantic HTML elements have been used appropriately to structure the content. This helps screen readers and other assistive technologies to understand the content hierarchy and present it in a meaningful way to users.
 
@@ -34,7 +34,7 @@ Responsive Design: The media query and responsive design practices used in the C
 
 Semantic Footer: The footer section contains descriptive content that explains the purpose of the website. This information is useful for all users and particularly important for those relying on screen readers.
 
-# Q5
+# Q5: (Search Engine Optimization)
 
 Meta Tags: The HTML code includes meta tags in the head section, such as meta name="keywords" and meta name="description". These meta tags help search engines understand the content and context of the website, improving its chances of appearing in relevant search results.
 
