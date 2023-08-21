@@ -1,5 +1,5 @@
 # Fanshawe
-
+WNR project received 20230820
 Mobile Application Development (MAP1)
 
 ## Programmer
